@@ -15,7 +15,7 @@ namespace bubblesort {
 		}
 		cout << endl;
 	}
-	vector<int> generate_random_numbers(int range, bool unique = true) {
+	vector<int> generate_random_numberss(int range, bool unique = true) {
 		auto set = std::unordered_set<int>{};
 		while (set.size() < range) {
 			set.insert(5 + rand() % 101);
@@ -24,7 +24,7 @@ namespace bubblesort {
 	}
 
 	int bubble_sort_one_scan(vector<int> &numbers) {
-		std::this_thread::sleep_for(7s);
+		// std::this_thread::sleep_for(7s);
 		int swaps = 0;
 		vector<int>::iterator prev = numbers.begin();
 		for (vector<int>::iterator next = numbers.begin()+1; next != numbers.end(); prev=next++) {

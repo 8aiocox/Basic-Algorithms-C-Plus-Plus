@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 	srand(static_cast<unsigned>(time(0)));
-	vector<int> numbers = bubblesort::generate_random_numbers(5 + rand() % 10, true);
+	vector<int> numbers = bubblesort::generate_random_numberss(5 + rand() % 10, true);
 	utilities::print_numbers(numbers);
 	int swaps = 0;
 	do {
