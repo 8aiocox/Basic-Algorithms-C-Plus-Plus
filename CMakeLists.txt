@@ -8,3 +8,4 @@ project ("BasicAlgorithms")
 # Include sub-projects.
 add_subdirectory ("BubbleSort")
 add_subdirectory ("BinarySearch")
+add_subdirectory ("InsertionSort")
