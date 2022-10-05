@@ -19,5 +19,5 @@ int main() {
 	}
 	cout << endl;
 	if (index > -1) { cout << "\nNumber " << find << " is found at position " << index + 1 << endl; }
-	else { cout << "\nNumber not found!" << endl; }
+	else { cout << "\nNumber not found in list!" << endl; }
 }
